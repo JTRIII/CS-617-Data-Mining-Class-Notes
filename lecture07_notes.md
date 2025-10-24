@@ -107,3 +107,20 @@ We need
 - What is the class of red star when k = 3?
 - What about k = 6?
 
+
+## Perceptron
+
+Perceptron is a linear model and it only works for binary labels
+
+**Example: Spam filtering**
+
+![](images/lecture07_images/spam_filtering.png)
+
+The $x_{1-3}$ are emails and the words have either a 0 or 1 if they are in the email. The labels (the spam column) are binary which tell whether the email is spam or not. If we have a $x_4 = ( 0\ 1\ 0\ 1\ 0)$, we want to figure out whether the label will be spam or not. 
+
+- Instance space x $\in$ X (|X|= n data points)
+    - Binary or real-valued feature vector x of word occurrences 
+    - d features (words + other things, d~100,000)
+- Class y $\in$ Y
+    - y: Spam (+1), Not Spam (-1) 
+
